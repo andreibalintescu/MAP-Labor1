@@ -36,5 +36,9 @@ public class Main {
         System.out.println("Maximale Zahl:" + arrayProcessor.getMax(numbers));
         //SUBTASK 2
         System.out.println("Minimale Zahl:" + arrayProcessor.getMin(numbers));
+        //SUBTASK 3
+        System.out.println("Maximale Summe:" + arrayProcessor.getMaxSum(numbers));
+        //SUBTASK 4
+        System.out.println("Minimale Summe:" + arrayProcessor.getMinSum(numbers));
     }
 }

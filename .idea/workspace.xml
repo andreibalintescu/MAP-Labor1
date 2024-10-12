@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58cae517-2a0b-4c4e-9643-eef6feee1268" name="Changes" comment="Finished Task 1, added suggestive comments">
-      <change afterPath="$PROJECT_DIR$/src/Task2/ArrayProcessor.java" afterDir="false" />
+    <list default="true" id="58cae517-2a0b-4c4e-9643-eef6feee1268" name="Changes" comment="Finished Subtasks 1 and 2 from Task 2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task2/ArrayProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task2/ArrayProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,7 @@
       <workItem from="1728400133914" duration="1209000" />
       <workItem from="1728565575901" duration="95000" />
       <workItem from="1728723775753" duration="223000" />
-      <workItem from="1728725629714" duration="5854000" />
+      <workItem from="1728725629714" duration="6487000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -116,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728730761243</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finished Subtasks 1 and 2 from Task 2">
+      <option name="closed" value="true" />
+      <created>1728731725247</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728731725247</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +158,7 @@
     <MESSAGE value="Completed Subtask 1 and Subtask 2" />
     <MESSAGE value="Added optimizations for Subtasks 1 and 2, completed Subtask 3" />
     <MESSAGE value="Finished Task 1, added suggestive comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Task 1, added suggestive comments" />
+    <MESSAGE value="Finished Subtasks 1 and 2 from Task 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Subtasks 1 and 2 from Task 2" />
   </component>
 </project>
