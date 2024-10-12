@@ -38,11 +38,19 @@ public class Grades {
                     roundedGrades[i] = roundedGrade;
                 else
                     roundedGrades[i] = grades[i];
-            }
-            else
+            } else
                 roundedGrades[i] = grades[i];
 
         }
         return roundedGrades;
+    }
+
+    public int getMaxRoundedGrade(int[] grades) {
+        int max = 0;
+        for (int grade : grades) {
+            if (grade > max)
+                max = grade;
+        }
+        return ((max / 5) + 1) * 5;
     }
 }
