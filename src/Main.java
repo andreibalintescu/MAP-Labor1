@@ -1,5 +1,6 @@
 
 import Task1.Grades;
+import Task2.ArrayProcessor;
 
 import java.util.Arrays;
 
@@ -10,6 +11,7 @@ public class Main {
         int[] array = {29, 37, 38, 41, 84, 67};
         int[] insufficientGrades = grades.getInsufficientGrades(array);
 
+        System.out.println();
         System.out.print("Noten:");
         System.out.println(Arrays.toString(array));
         //SUBTASK 1
@@ -24,5 +26,15 @@ public class Main {
         //SUBTASK 4
         System.out.println("Maximale Abgerundete Note:" + (grades.getMaxRoundedGrade(array)));
 
+        System.out.println();
+
+        ///TASK 2
+        ArrayProcessor arrayProcessor = new ArrayProcessor();
+        int[] numbers = {4, 8, 3, 10, 17};
+        System.out.println(Arrays.toString(numbers));
+        //SUBTASK 1
+        System.out.println("Maximale Zahl:" + arrayProcessor.getMax(numbers));
+        //SUBTASK 2
+        System.out.println("Minimale Zahl:" + arrayProcessor.getMin(numbers));
     }
 }
