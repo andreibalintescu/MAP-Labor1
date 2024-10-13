@@ -59,8 +59,11 @@ public class Main {
         int multiplier = -1;
         System.out.println(bigNumberCalculator.multiplyBigNumbers(num5, multiplier));
         //SUBTASK 4
-        char[] num6 = {'2','3','6','0','0','0','0','0','0'};
+        char[] num6 = {'1','9','0','0','0','0','0','0','0'};
         int divisor = 2;
         System.out.println(bigNumberCalculator.divideBigNumbers(num6, divisor));
+
+        ///TASK 4
+
     }
 }

@@ -77,8 +77,10 @@ public class BigNumberCalculator {
         }
         for (int i = 0; i < number1.length; i++) {
             int digit1 = number1[i] - '0';
-            if (digit1 % divisor != 0) {
-                result.append(digit1 / divisor);
+            if (i == 0 && digit1 % divisor != 0)
+                carry = digit1;
+            else if (digit1 % divisor != 0) {
+                result.append((carry * 10 + digit1) / divisor);
                 carry = digit1 % divisor;
             } else if (digit1 % divisor == 0 && carry == 0) {
                 result.append(digit1 / divisor);
@@ -88,7 +90,7 @@ public class BigNumberCalculator {
                 carry = 0;
             }
         }
-        if (minus){
+        if (minus) {
             StringBuilder reversed = result.reverse();
             reversed.append("-");
             return reversed.reverse().toString();
