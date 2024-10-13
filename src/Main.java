@@ -50,8 +50,13 @@ public class Main {
         char[] num1 = {'1','3','0','0','0','0','0','0','0'};
         char[] num2 = {'8','7','0','0','0','0','0','0','0'};
         System.out.println(bigNumberCalculator.addBigNumbers(num1, num2));
-        char[] num3 = {'5','4','0','0','0','0','0','0','0'};
+        //SUBTASK 2
+        char[] num3 = {'8','3','0','0','0','0','0','0','0'};
         char[] num4 = {'5','4','0','0','0','0','0','0','0'};
         System.out.println(bigNumberCalculator.subtractBigNumbers(num3, num4));
+        //SUBTASK 3
+        char[] num5 = {'5','3','6','0','0','0','0','0','0'};
+        int multiplier = -1;
+        System.out.println(bigNumberCalculator.multiplyBigNumbers(num5, multiplier));
     }
 }
