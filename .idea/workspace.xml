@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58cae517-2a0b-4c4e-9643-eef6feee1268" name="Changes" comment="Finished Subtasks 3 and 4, added comments in Main">
-      <change afterPath="$PROJECT_DIR$/src/Task3/BigNumberCalculator.java" afterDir="false" />
+    <list default="true" id="58cae517-2a0b-4c4e-9643-eef6feee1268" name="Changes" comment="Started Task 3, added first implementation of Subtask 1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Task3/BigNumberCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task3/BigNumberCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +83,7 @@
       <workItem from="1728565575901" duration="95000" />
       <workItem from="1728723775753" duration="223000" />
       <workItem from="1728725629714" duration="6860000" />
-      <workItem from="1728818560940" duration="2620000" />
+      <workItem from="1728818560940" duration="4923000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -133,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728732226325</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Started Task 3, added first implementation of Subtask 1">
+      <option name="closed" value="true" />
+      <created>1728821444534</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728821444534</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +177,7 @@
     <MESSAGE value="Finished Task 1, added suggestive comments" />
     <MESSAGE value="Finished Subtasks 1 and 2 from Task 2" />
     <MESSAGE value="Finished Subtasks 3 and 4, added comments in Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Subtasks 3 and 4, added comments in Main" />
+    <MESSAGE value="Started Task 3, added first implementation of Subtask 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started Task 3, added first implementation of Subtask 1" />
   </component>
 </project>

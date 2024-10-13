@@ -46,9 +46,12 @@ public class Main {
 
         ///TASK 3
         BigNumberCalculator bigNumberCalculator = new BigNumberCalculator();
+        //SUBTASK 1
         char[] num1 = {'1','3','0','0','0','0','0','0','0'};
         char[] num2 = {'8','7','0','0','0','0','0','0','0'};
         System.out.println(bigNumberCalculator.addBigNumbers(num1, num2));
-
+        char[] num3 = {'5','4','0','0','0','0','0','0','0'};
+        char[] num4 = {'5','4','0','0','0','0','0','0','0'};
+        System.out.println(bigNumberCalculator.subtractBigNumbers(num3, num4));
     }
 }
