@@ -1,6 +1,7 @@
 
 import Task1.Grades;
 import Task2.ArrayProcessor;
+import Task3.BigNumberCalculator;
 
 import java.util.Arrays;
 
@@ -40,5 +41,14 @@ public class Main {
         System.out.println("Maximale Summe:" + arrayProcessor.getMaxSum(numbers));
         //SUBTASK 4
         System.out.println("Minimale Summe:" + arrayProcessor.getMinSum(numbers));
+
+        System.out.println();
+
+        ///TASK 3
+        BigNumberCalculator bigNumberCalculator = new BigNumberCalculator();
+        char[] num1 = {'1','3','0','0','0','0','0','0','0'};
+        char[] num2 = {'8','7','0','0','0','0','0','0','0'};
+        System.out.println(bigNumberCalculator.addBigNumbers(num1, num2));
+
     }
 }
