@@ -2,6 +2,7 @@
 import Task1.Grades;
 import Task2.ArrayProcessor;
 import Task3.BigNumberCalculator;
+import Task4.GadgetShop;
 
 import java.util.Arrays;
 
@@ -47,23 +48,31 @@ public class Main {
         ///TASK 3
         BigNumberCalculator bigNumberCalculator = new BigNumberCalculator();
         //SUBTASK 1
-        char[] num1 = {'1','3','0','0','0','0','0','0','0'};
-        char[] num2 = {'8','7','0','0','0','0','0','0','0'};
-        System.out.println(bigNumberCalculator.addBigNumbers(num1, num2));
+        char[] num1 = {'1', '3', '0', '0', '0', '0', '0', '0', '0'};
+        char[] num2 = {'8', '7', '0', '0', '0', '0', '0', '0', '0'};
+        System.out.println("Summe:" + bigNumberCalculator.addBigNumbers(num1, num2));
         //SUBTASK 2
-        char[] num3 = {'8','3','0','0','0','0','0','0','0'};
-        char[] num4 = {'5','4','0','0','0','0','0','0','0'};
-        System.out.println(bigNumberCalculator.subtractBigNumbers(num3, num4));
+        char[] num3 = {'8', '3', '0', '0', '0', '0', '0', '0', '0'};
+        char[] num4 = {'5', '4', '0', '0', '0', '0', '0', '0', '0'};
+        System.out.println("Differenz:" + bigNumberCalculator.subtractBigNumbers(num3, num4));
         //SUBTASK 3
-        char[] num5 = {'5','3','6','0','0','0','0','0','0'};
+        char[] num5 = {'5', '3', '6', '0', '0', '0', '0', '0', '0'};
         int multiplier = -1;
-        System.out.println(bigNumberCalculator.multiplyBigNumbers(num5, multiplier));
+        System.out.println("Multiplikation:" + bigNumberCalculator.multiplyBigNumbers(num5, multiplier));
         //SUBTASK 4
-        char[] num6 = {'1','9','0','0','0','0','0','0','0'};
+        char[] num6 = {'1', '9', '0', '0', '0', '0', '0', '0', '0'};
         int divisor = 2;
-        System.out.println(bigNumberCalculator.divideBigNumbers(num6, divisor));
+        System.out.println("Division:" + bigNumberCalculator.divideBigNumbers(num6, divisor));
+
+        System.out.println();
 
         ///TASK 4
-
+        int[] keyboards = {15, 20, 10, 35};
+        int[] cables = {20, 15, 40, 25};
+        GadgetShop gadgetShop = new GadgetShop(keyboards, cables);
+        //SUBTASK 1
+        System.out.println("Billigste Tastatur:" + gadgetShop.getCheapestKeyboard());
+        //SUBTASK 2
+        System.out.println("Teuerste Gegenstand:" + gadgetShop.getMostExpensiveGadget());
     }
 }
