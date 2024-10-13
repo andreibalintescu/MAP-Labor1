@@ -67,12 +67,17 @@ public class Main {
         System.out.println();
 
         ///TASK 4
-        int[] keyboards = {15, 20, 10, 35};
-        int[] cables = {20, 15, 40, 25};
+        int[] keyboards = {40, 60};
+        int[] cables = {8, 12};
         GadgetShop gadgetShop = new GadgetShop(keyboards, cables);
         //SUBTASK 1
         System.out.println("Billigste Tastatur:" + gadgetShop.getCheapestKeyboard());
         //SUBTASK 2
         System.out.println("Teuerste Gegenstand:" + gadgetShop.getMostExpensiveGadget());
+        //SUBTASK 3
+        int markusBudget = 60;
+        System.out.println("Teuerste USB Laufwerk, das Markus kaufen kann:" + gadgetShop.getBestUsbCableWithinBudget(markusBudget));
+        //SUBTASK 4
+        System.out.println("Maximalen Geldbetrag:" + gadgetShop.getBestDealWithinBudget(markusBudget));
     }
 }

@@ -36,6 +36,25 @@ public class GadgetShop {
     }
 
     public int getBestUsbCableWithinBudget(int budget) {
-       return 0;
+        int bestUsbCable = -1;
+        for (int price : this.usbCables) {
+            if (price <= budget && price > bestUsbCable) {
+                bestUsbCable = price;
+            }
+        }
+        return bestUsbCable;
+    }
+
+    public int getBestDealWithinBudget(int budget) {
+        int bestDealWithinBudget = -1;
+        for (int usbPrice : this.usbCables) {
+            for (int keyboardPrice : this.keyboards) {
+                int deal = usbPrice + keyboardPrice;
+                if (deal <= budget && deal > bestDealWithinBudget) {
+                    bestDealWithinBudget = deal;
+                }
+            }
+        }
+        return bestDealWithinBudget;
     }
 }

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58cae517-2a0b-4c4e-9643-eef6feee1268" name="Changes" comment="Fixed an issue with Task 3, Subtask 4 and started Task 4">
+    <list default="true" id="58cae517-2a0b-4c4e-9643-eef6feee1268" name="Changes" comment="Finished Subtasks 1 and 2 and added relevant comments to Main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Task4/GadgetShop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task4/GadgetShop.java" afterDir="false" />
@@ -83,7 +83,7 @@
       <workItem from="1728565575901" duration="95000" />
       <workItem from="1728723775753" duration="223000" />
       <workItem from="1728725629714" duration="6860000" />
-      <workItem from="1728818560940" duration="10080000" />
+      <workItem from="1728818560940" duration="11872000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -173,7 +173,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728827669328</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Finished Subtasks 1 and 2 and added relevant comments to Main">
+      <option name="closed" value="true" />
+      <created>1728829079699</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1728829079699</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +222,7 @@
     <MESSAGE value="Finished Subtask 3." />
     <MESSAGE value="Finished Subtask 4." />
     <MESSAGE value="Fixed an issue with Task 3, Subtask 4 and started Task 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed an issue with Task 3, Subtask 4 and started Task 4" />
+    <MESSAGE value="Finished Subtasks 1 and 2 and added relevant comments to Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Subtasks 1 and 2 and added relevant comments to Main" />
   </component>
 </project>
