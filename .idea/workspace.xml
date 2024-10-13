@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="58cae517-2a0b-4c4e-9643-eef6feee1268" name="Changes" comment="Finished Subtask 2.">
+    <list default="true" id="58cae517-2a0b-4c4e-9643-eef6feee1268" name="Changes" comment="Finished Subtask 3.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Task3/BigNumberCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Task3/BigNumberCalculator.java" afterDir="false" />
@@ -83,7 +83,7 @@
       <workItem from="1728565575901" duration="95000" />
       <workItem from="1728723775753" duration="223000" />
       <workItem from="1728725629714" duration="6860000" />
-      <workItem from="1728818560940" duration="5974000" />
+      <workItem from="1728818560940" duration="8284000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -149,7 +149,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728823750941</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Finished Subtask 3.">
+      <option name="closed" value="true" />
+      <created>1728824863884</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1728824863884</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +195,7 @@
     <MESSAGE value="Finished Subtasks 3 and 4, added comments in Main" />
     <MESSAGE value="Started Task 3, added first implementation of Subtask 1" />
     <MESSAGE value="Finished Subtask 2." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished Subtask 2." />
+    <MESSAGE value="Finished Subtask 3." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished Subtask 3." />
   </component>
 </project>

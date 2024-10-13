@@ -46,7 +46,7 @@ public class BigNumberCalculator {
         int carry = 0;
         boolean minus = false;
         if (multiplier == 0) return "0";
-        if (multiplier < 0){
+        if (multiplier < 0) {
             multiplier = -multiplier;
             minus = true;
         }
@@ -55,8 +55,7 @@ public class BigNumberCalculator {
             int digit2 = (multiplier * digit1) % 10 + carry;
             if (digit1 * multiplier >= 10) {
                 carry = 1;
-            }
-            else carry = 0;
+            } else carry = 0;
             result.append(digit2);
         }
         if (carry > 0) {
@@ -67,6 +66,36 @@ public class BigNumberCalculator {
         return result.reverse().toString();
     }
 
+    public String divideBigNumbers(char[] number1, int divisor) {
+        StringBuilder result = new StringBuilder();
+        int carry = 0;
+        boolean minus = false;
+        if (divisor == 0) return "Ungültiges Teiler";
+        if (divisor < 0) {
+            divisor = -divisor;
+            minus = true;
+        }
+        for (int i = 0; i < number1.length; i++) {
+            int digit1 = number1[i] - '0';
+            if (digit1 % divisor != 0) {
+                result.append(digit1 / divisor);
+                carry = digit1 % divisor;
+            } else if (digit1 % divisor == 0 && carry == 0) {
+                result.append(digit1 / divisor);
+
+            } else {
+                result.append((carry * 10 + digit1) / divisor);
+                carry = 0;
+            }
+        }
+        if (minus){
+            StringBuilder reversed = result.reverse();
+            reversed.append("-");
+            return reversed.reverse().toString();
+        }
+
+        return result.toString();
+    }
 
 
 }
