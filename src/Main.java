@@ -52,16 +52,16 @@ public class Main {
         char[] num2 = {'8', '7', '0', '0', '0', '0', '0', '0', '0'};
         System.out.println("Summe:" + bigNumberCalculator.addBigNumbers(num1, num2));
         //SUBTASK 2
-        char[] num3 = {'8', '3', '0', '0', '0', '0', '0', '0', '0'};
+        char[] num3 = {'9', '4', '0', '0', '0', '0', '0', '0', '0'};
         char[] num4 = {'5', '4', '0', '0', '0', '0', '0', '0', '0'};
         System.out.println("Differenz:" + bigNumberCalculator.subtractBigNumbers(num3, num4));
         //SUBTASK 3
-        char[] num5 = {'5', '3', '6', '0', '0', '0', '0', '0', '0'};
-        int multiplier = -1;
+        char[] num5 = {'5', '6', '6', '0', '0', '0', '0', '0', '0'};
+        int multiplier = 6;
         System.out.println("Multiplikation:" + bigNumberCalculator.multiplyBigNumbers(num5, multiplier));
         //SUBTASK 4
-        char[] num6 = {'1', '9', '0', '0', '0', '0', '0', '0', '0'};
-        int divisor = 2;
+        char[] num6 = {'3', '6', '0', '0', '0', '0', '0', '0', '0'};
+        int divisor = 6;
         System.out.println("Division:" + bigNumberCalculator.divideBigNumbers(num6, divisor));
 
         System.out.println();

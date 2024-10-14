@@ -5,13 +5,14 @@ import java.util.List;
 
 public class Grades {
     public int[] getInsufficientGrades(int[] grades) {
+        // Used List of Integers for resize purposes
         List<Integer> insufficientGradesList = new ArrayList<>();
         for (int grade : grades) {
             if (grade < 40) {
                 insufficientGradesList.add(grade);
             }
         }
-
+        // Conversion from List to array
         int[] insufficientGrades = new int[insufficientGradesList.size()];
         for (int i = 0; i < insufficientGradesList.size(); i++) {
             insufficientGrades[i] = insufficientGradesList.get(i);
@@ -47,6 +48,7 @@ public class Grades {
 
     public int getMaxRoundedGrade(int[] grades) {
         int max = 0;
+        // Max Rounded Grade is the result of rounding the highest grade, regardless of other grades
         for (int grade : grades) {
             if (grade > max)
                 max = grade;

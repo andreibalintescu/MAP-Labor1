@@ -44,7 +44,7 @@ public class GadgetShop {
         }
         return bestUsbCable;
     }
-
+    // Brute Force algorithm, can be optimized
     public int getBestDealWithinBudget(int budget) {
         int bestDealWithinBudget = -1;
         for (int usbPrice : this.usbCables) {
